@@ -14,6 +14,15 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
+			<header>
+				<nav>
+					{/* <img /> */}
+					<a href="/">Home</a>
+					<a href="/events">Events</a>
+					<a href="/about">About</a>
+				</nav>
+			</header>
+
 			<main className={`${styles.main} ${inter.className}`}>
 				Welcome to Next Events!
 			</main>
