@@ -4,7 +4,7 @@ import styles from "@/styles/Home.module.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export default function Home() {
+export default function Home({ name }) {
 	return (
 		<>
 			<Head>
@@ -24,8 +24,16 @@ export default function Home() {
 			</header>
 
 			<main className={`${styles.main} ${inter.className}`}>
-				Welcome to Next Events!
+				Hello {name}! Welcome to Next Events!
 			</main>
 		</>
 	)
+}
+
+export function getServerSideProps() {
+	return {
+		props: {
+			name: "John",
+		},
+	}
 }
