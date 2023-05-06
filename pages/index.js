@@ -2,6 +2,7 @@ import Head from "next/head"
 import { Inter } from "next/font/google"
 import styles from "@/styles/Home.module.css"
 import Image from "next/image"
+import Link from "next/link"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -18,25 +19,33 @@ export default function Home({ data }) {
 			<header>
 				<nav>
 					{/* <img /> */}
-					<a href="/">Home</a>
-					<a href="/events">Events</a>
-					<a href="/about">About</a>
+					<Link href={"/"} passHref legacyBehavior>
+						<a>Home</a>
+					</Link>
+					<Link href="/events" passHref legacyBehavior>
+						<a>Events</a>
+					</Link>
+					<Link href="/about" passHref legacyBehavior>
+						<a>About</a>
+					</Link>
 				</nav>
 			</header>
 
 			<main className={`${styles.main} ${inter.className}`}>
 				Hello! Welcome to Next Events!
 				{data.map((evt) => (
-					<a key={evt.id} href="">
-						<Image
-							src={evt.image}
-							width={"100"}
-							height={"100"}
-							alt="event thumbnail"
-						/>
-						<h2>{evt.title}</h2>
-						<p>{evt.description}</p>
-					</a>
+					<Link key={evt.id} href={`/events/${evt.id}`} passHref legacyBehavior>
+						<a>
+							<Image
+								src={evt.image}
+								width={"100"}
+								height={"100"}
+								alt="event thumbnail"
+							/>
+							<h2>{evt.title}</h2>
+							<p>{evt.description}</p>
+						</a>
+					</Link>
 				))}
 			</main>
 		</>
@@ -52,11 +61,3 @@ export async function getServerSideProps() {
 		},
 	}
 }
-
-// export function getServerSideProps() {
-// 	return {
-// 		props: {
-// 			name: "John",
-// 		},
-// 	}
-// }
