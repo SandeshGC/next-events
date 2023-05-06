@@ -1,10 +1,11 @@
 import Head from "next/head"
 import { Inter } from "next/font/google"
 import styles from "@/styles/Home.module.css"
+import Image from "next/image"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export default function Home({ name }) {
+export default function Home({ data }) {
 	return (
 		<>
 			<Head>
@@ -24,16 +25,38 @@ export default function Home({ name }) {
 			</header>
 
 			<main className={`${styles.main} ${inter.className}`}>
-				Hello {name}! Welcome to Next Events!
+				Hello! Welcome to Next Events!
+				{data.map((evt) => (
+					<a key={evt.id} href="">
+						<Image
+							src={evt.image}
+							width={"100"}
+							height={"100"}
+							alt="event thumbnail"
+						/>
+						<h2>{evt.title}</h2>
+						<p>{evt.description}</p>
+					</a>
+				))}
 			</main>
 		</>
 	)
 }
 
-export function getServerSideProps() {
+export async function getServerSideProps() {
+	const { events_categories } = await import("/data/data.json")
+
 	return {
 		props: {
-			name: "John",
+			data: events_categories,
 		},
 	}
 }
+
+// export function getServerSideProps() {
+// 	return {
+// 		props: {
+// 			name: "John",
+// 		},
+// 	}
+// }
