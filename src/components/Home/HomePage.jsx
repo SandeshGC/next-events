@@ -1,12 +1,9 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Inter } from "next/font/google"
-
-const inter = Inter({ subsets: ["latin"] })
 
 const HomePage = ({ data }) => {
 	return (
-		<main className={`${inter.className}`}>
+		<>
 			{data.map((evt) => (
 				<Link key={evt.id} href={`/events/${evt.id}`} passHref legacyBehavior>
 					<a>
@@ -21,7 +18,7 @@ const HomePage = ({ data }) => {
 					</a>
 				</Link>
 			))}
-		</main>
+		</>
 	)
 }
 
