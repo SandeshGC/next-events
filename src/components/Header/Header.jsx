@@ -19,7 +19,7 @@ const Header = () => (
 					</li>
 
 					<li>
-						<Link href="/about" passHref legacyBehavior>
+						<Link href="/about-us" passHref legacyBehavior>
 							<a>About</a>
 						</Link>
 					</li>

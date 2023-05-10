@@ -1,25 +1,33 @@
+import { toTitleCase } from "@/helpers"
+import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
 import React from "react"
 
-export default function EventLocationPage({ data }) {
+export default function EventLocationPage({ data, city }) {
 	return (
-		<main>
-			{data.map((evt) => (
-				<Link
-					key={evt.id}
-					href={`/events/${evt.city}/${evt.id}`}
-					passHref
-					legacyBehavior
-				>
-					<a>
-						<Image width={300} height={300} alt={evt.title} src={evt.image} />
-						<h2>{evt.title}</h2>
-						<p> {evt.description}</p>
-					</a>
-				</Link>
-			))}
-		</main>
+		<>
+			<Head>
+				{/* this toTitleCase fn initially shows a <!-- --> on title while refreshing this page */}
+				<title>Events in {toTitleCase(city)}</title>
+			</Head>
+			<main>
+				{data.map((evt) => (
+					<Link
+						key={evt.id}
+						href={`/events/${evt.city}/${evt.id}`}
+						passHref
+						legacyBehavior
+					>
+						<a>
+							<Image width={300} height={300} alt={evt.title} src={evt.image} />
+							<h2>{evt.title}</h2>
+							<p> {evt.description}</p>
+						</a>
+					</Link>
+				))}
+			</main>
+		</>
 	)
 }
 
@@ -45,6 +53,7 @@ export async function getStaticProps(context) {
 	return {
 		props: {
 			data,
+			city: context?.params.eventLocation,
 		},
 	}
 }

@@ -1,12 +1,18 @@
 import Image from "next/image"
-import React from "react"
+import Head from "next/head"
+
 export default function EventPage({ event }) {
 	return (
-		<div>
-			<Image src={event.image} height={300} width={400} alt={event.title} />
-			<h1>{event.title}</h1>
-			<p>{event.description}</p>
-		</div>
+		<>
+			<Head>
+				<title>{event.title}</title>
+			</Head>
+			<div>
+				<Image src={event.image} height={300} width={400} alt={event.title} />
+				<h1>{event.title}</h1>
+				<p>{event.description}</p>
+			</div>
+		</>
 	)
 }
 
