@@ -2,19 +2,18 @@
     display: flex
     flex-direction: column
     gap: 50px
-    .eventCard
-        a
-            display: flex
-            justify-content: space-around
-            align-items: center
-            padding: 1rem
-            gap: 1rem
-            div
-                object-fit: contain
-                width: 50%
-        &:nth-child(even)
-            a
-                flex-direction: row-reverse
-        .eventCoverImg
-            object-fit: cover
-            max-width: 100%
+    a
+        display: flex
+        justify-content: space-around
+        align-items: center
+        padding: 1rem
+        gap: 1rem
+        div
+            object-fit: contain
+            width: 50%
+        div
+            img
+                object-fit: cover
+                max-width: 100%
+        &:nth-child(odd) //if it is "a" which is odd child
+            flex-direction: row-reverse
