@@ -1,24 +1,13 @@
-import Link from "next/link"
-import Image from "next/image"
+import { HomeEventCard } from ".."
+import styles from "./Home.module.sass"
 
 const HomePage = ({ data }) => {
 	return (
-		<>
+		<div className={styles.eventCards}>
 			{data.map((evt) => (
-				<Link key={evt.id} href={`/events/${evt.id}`} passHref legacyBehavior>
-					<a>
-						<Image
-							src={evt.image}
-							width={"100"}
-							height={"100"}
-							alt="event thumbnail"
-						/>
-						<h2>{evt.title}</h2>
-						<p>{evt.description}</p>
-					</a>
-				</Link>
+				<HomeEventCard key={evt.id} evt={evt} />
 			))}
-		</>
+		</div>
 	)
 }
 
