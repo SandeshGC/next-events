@@ -8,7 +8,7 @@ export default function EventPage({ event }) {
 				<title>{event.title}</title>
 			</Head>
 			<div>
-				<Image src={event.image} height={300} width={400} alt={event.title} />
+				<Image src={event.image} height={300} width={400} alt={event.title} unoptimized/>
 				<h1>{event.title}</h1>
 				<p>{event.description}</p>
 			</div>

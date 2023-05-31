@@ -8,24 +8,38 @@ export default function EventLocationPage({ data, city }) {
 	return (
 		<>
 			<Head>
-				{/* this toTitleCase fn initially shows a <!-- --> on title while refreshing this page */}
+				{/* ISSUE: this toTitleCase fn initially shows a <!-- --> on title while refreshing this page */}
 				<title>Events in {toTitleCase(city)}</title>
 			</Head>
-			<main>
-				{data.map((evt) => (
-					<Link
-						key={evt.id}
-						href={`/events/${evt.city}/${evt.id}`}
-						passHref
-						legacyBehavior
-					>
-						<a>
-							<Image width={300} height={300} alt={evt.title} src={evt.image} />
-							<h2>{evt.title}</h2>
-							<p> {evt.description}</p>
-						</a>
-					</Link>
-				))}
+
+			<main className="city__events--container">
+				<h1>Events in {toTitleCase(city)}</h1>
+				<div className="city__events--list">
+					{data.map((evt) => (
+						<Link
+							key={evt.id}
+							href={`/events/${evt.city}/${evt.id}`}
+							passHref
+							legacyBehavior
+						>
+							<a className="card">
+								<div className="card__img--container">
+									<Image
+										width={300}
+										height={300}
+										alt={evt.title}
+										src={evt.image}
+										unoptimized
+									/>
+								</div>
+								<div className="card__details--container">
+									<h2>{evt.title}</h2>
+									<p> {evt.description}</p>
+								</div>
+							</a>
+						</Link>
+					))}
+				</div>
 			</main>
 		</>
 	)

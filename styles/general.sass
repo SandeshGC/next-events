@@ -35,3 +35,34 @@ main
     max-width: 1234px
     margin: auto
     padding: 1rem
+
+// Each city page
+
+.city__events--container
+    .city__events--list
+        display: grid
+        grid-template-columns: repeat(3,1fr)
+        gap: 1rem
+        border: none
+        border-radius: 25px
+        .card
+            border-radius: 10px
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            padding: 1rem
+            margin: 0 auto
+            box-shadow: 0px 2.5px 5px rgba(0, 0, 0, 0.2)
+            &:hover
+                box-shadow: 0 2.5px 8px rgba(0, 0, 0, 0.5)
+                transition: all
+                transition-duration: 500ms
+            .card__img--container
+                margin: 0 auto
+                display: flex
+                justify-content: center
+                width: 100%
+            .card__details--container
+                margin: 0 auto
+                display: flex
+                flex-direction: column

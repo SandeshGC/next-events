@@ -13,7 +13,13 @@ export default function EventsPage({ data }) {
 				{data.map((evt) => (
 					<Link key={evt.id} href={`/events/${evt.id}`} passHref legacyBehavior>
 						<a>
-							<Image src={evt.image} alt={evt.title} width="400" height="300" />
+							<Image
+								src={evt.image}
+								alt={evt.title}
+								width="400"
+								height="300"
+								unoptimized
+							/>
 							<h2>{evt.title}</h2>
 						</a>
 					</Link>

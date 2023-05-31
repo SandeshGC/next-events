@@ -6,7 +6,7 @@ const HomeEventCard = ({ evt }) => {
 		<Link key={evt.id} href={`/events/${evt.id}`} passHref legacyBehavior>
 			<a>
 				<div>
-					<Image src={evt.image} width={"450"} height={"300"} alt={evt.title} />
+					<Image src={evt.image} width={"450"} height={"300"} alt={evt.title} unoptimized/>
 				</div>
 				<div>
 					<h2>{evt.title}</h2>
