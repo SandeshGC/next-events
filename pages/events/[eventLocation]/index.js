@@ -1,4 +1,5 @@
 import { toTitleCase } from "@/helpers"
+import { CityEventCard } from "@/src/components"
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
@@ -19,24 +20,10 @@ export default function EventLocationPage({ data, city }) {
 						<Link
 							key={evt.id}
 							href={`/events/${evt.city}/${evt.id}`}
-							passHref
-							legacyBehavior
+							// passHref
+							// legacyBehavior
 						>
-							<a className="card">
-								<div className="card__img--container">
-									<Image
-										width={300}
-										height={300}
-										alt={evt.title}
-										src={evt.image}
-										unoptimized
-									/>
-								</div>
-								<div className="card__details--container">
-									<h2>{evt.title}</h2>
-									<p> {evt.description}</p>
-								</div>
-							</a>
+							<CityEventCard evt={evt} />
 						</Link>
 					))}
 				</div>
