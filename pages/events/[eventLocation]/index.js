@@ -17,12 +17,7 @@ export default function EventLocationPage({ data, city }) {
 				<h1>Events in {toTitleCase(city)}</h1>
 				<div className="city__events--list">
 					{data.map((evt) => (
-						<Link
-							key={evt.id}
-							href={`/events/${evt.city}/${evt.id}`}
-							// passHref
-							// legacyBehavior
-						>
+						<Link key={evt.id} href={`/events/${evt.city}/${evt.id}`}>
 							<CityEventCard evt={evt} />
 						</Link>
 					))}
