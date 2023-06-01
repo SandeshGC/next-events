@@ -6,14 +6,20 @@
         display: flex
         justify-content: space-around
         align-items: center
-        padding: 1rem
-        gap: 1rem
+        gap: 2.5rem
         div
-            object-fit: contain
             width: 50%
-        div
+            overflow: hidden
+            border-radius: 10px
+            h2
+                font-size: 2rem
             img
                 object-fit: cover
-                max-width: 100%
+                width: 100%
+                transition: all 500ms
+                border-radius: 10px
+                &:hover
+                    scale: 1.05
+                    transition: all 300ms
         &:nth-child(odd) //if it is "a" which is odd child
             flex-direction: row-reverse

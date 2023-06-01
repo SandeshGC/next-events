@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 const Layout = ({ children }) => {
 	return (
-		<div className={inter.className}>
+		<div className={`${inter.className} root`}>
 			<Header />
 			<main>{children}</main>
 			<Footer />

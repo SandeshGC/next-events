@@ -1,26 +1,27 @@
 import Image from "next/image"
 import Link from "next/link"
+import styles from "./Header.module.sass"
 
 const Header = () => (
-	<header>
-		<div>
+	<header className={styles.header}>
+		<div className="container">
 			<Image src={"/vercel.svg"} width={70} height={70} alt="Vercel logo" />
 			<nav>
 				<ul>
 					<li>
 						<Link href={"/"} passHref legacyBehavior>
-							<a>Home</a>
+							Home
 						</Link>
 					</li>
 					<li>
 						<Link href="/events" passHref legacyBehavior>
-							<a>Events</a>
+							Events
 						</Link>
 					</li>
 
 					<li>
 						<Link href="/about-us" passHref legacyBehavior>
-							<a>About</a>
+							About
 						</Link>
 					</li>
 				</ul>
