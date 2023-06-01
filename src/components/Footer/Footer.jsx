@@ -1,5 +1,11 @@
 const Footer = () => {
-	return <footer>@2023 Next Events - A Project Built with Next.js</footer>
+	return (
+		<footer>
+			<div class="container">
+				@2023 Next Events - A Project Built with Next.js
+			</div>
+		</footer>
+	)
 }
 
 export default Footer

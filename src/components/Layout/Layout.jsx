@@ -7,11 +7,11 @@ const inter = Inter({ subsets: ["latin"] })
 
 const Layout = ({ children }) => {
 	return (
-		<>
+		<div className={inter.className}>
 			<Header />
-			<main className={`${inter.className}`}>{children}</main>
+			<main>{children}</main>
 			<Footer />
-		</>
+		</div>
 	)
 }
 
