@@ -3,19 +3,19 @@
 		{
 			"id": "london",
 			"title": "Events in London",
-			"description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem",
+			"description": "Experience the best of London's vibrant event scene with a variety of exciting activities, performances, and gatherings. Discover the city's rich cultural heritage and indulge in unforgettable moments.",
 			"image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
 		},
 		{
 			"id": "san-francisco",
 			"title": "Events in San Francisco",
-			"description": "corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate.",
+			"description": "Immerse yourself in the vibrant event scene of San Francisco. From tech conferences to cultural festivals, there's something for everyone. Discover the innovative spirit and diverse experiences the city has to offer.",
 			"image": "https://images.unsplash.com/photo-1506146332389-18140dc7b2fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
 		},
 		{
 			"id": "barcelona",
 			"title": "Events in Barcelona",
-			"description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+			"description": "Explore the vibrant event scene of Barcelona, a city known for its art, culture, and lively atmosphere. From music festivals to design conferences, Barcelona offers a blend of creativity and excitement.",
 			"image": "https://images.unsplash.com/photo-1579282240050-352db0a14c21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=652&q=80"
 		}
 	],
@@ -24,24 +24,24 @@
 			"id": "london-comic-con-winter",
 			"title": "London Comic Con Winter",
 			"city": "london",
-			"description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+			"description": "Join us at London Comic Con Winter for a thrilling celebration of all things geek. Immerse yourself in the world of comics, gaming, cosplay, and meet your favorite artists and celebrities.",
 			"image": "https://images.unsplash.com/photo-1608889476561-6242cfdbf622?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
 			"emails_registered": []
 		},
 
 		{
 			"id": "new-years-eve-in-london-2023",
-			"title": "New Years Eve in London 2023 ",
+			"title": "New Years Eve in London 2023",
 			"city": "london",
-			"description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-			"image": "https://images.unsplash.com/photo-1521478413868-1bbd982fa4a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+			"description": "Celebrate the arrival of the new year in style at London's most spectacular New Year's Eve event. Enjoy a night filled with live music, dazzling fireworks, and an unforgettable atmosphere.",
+			"image": "https://images.unsplash.com/photo-1523938290042-4a36fbae00ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=976&q=80",
 			"emails_registered": []
 		},
 		{
 			"id": "'edtech-world-summit-2022",
 			"title": "EdTech World Summit 2022",
 			"city": "london",
-			"description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+			"description": "Join us at the EdTech World Summit 2022, where leading experts and innovators in education technology come together to explore the latest trends and advancements in the field. Discover how technology is shaping the future of education and gain valuable insights from renowned speakers and thought leaders. Don't miss this opportunity to be part of the global EdTech community and revolutionize learning for the digital age.",
 			"image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
 			"emails_registered": ["alicia@gmail.com", "monica@gmail.com"]
 		},
@@ -49,7 +49,7 @@
 			"id": "sigala-at-electric-brixton",
 			"title": "Sigala at Electric Brixton",
 			"city": "london",
-			"description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+			"description": "Get ready for an electrifying night as Sigala takes the stage at Electric Brixton. Dance the night away to chart-topping hits and infectious beats in an unforgettable atmosphere. Don't miss this chance to experience a live performance by one of the hottest artists in the music industry. Grab your tickets now and get ready to party!",
 			"image": "https://images.unsplash.com/photo-1478147427282-58a87a120781?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
 			"emails_registered": ["monica@gmail.com"]
 		},
@@ -57,7 +57,7 @@
 			"id": "kiss-haunted-house-party-2022",
 			"title": "KISS Haunted House Party 2022",
 			"city": "london",
-			"description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+			"description": "Prepare for a spine-chilling night of music and entertainment at the KISS Haunted House Party 2022. Join us for a hauntingly good time as top artists and DJs perform live on stage. Dress up in your scariest costume and immerse yourself in the eerie atmosphere. Get your tickets now and be part of the biggest Halloween party in town!",
 			"image": "https://wembleypark.com/media/images/KISS-HHP-42-1440x810-Logos-Date-de.2e16d0ba.fill-496x279.jpg",
 			"emails_registered": []
 		},
@@ -65,7 +65,7 @@
 			"id": "sf-blockchain-week",
 			"title": "SF Blockchain Week",
 			"city": "san-francisco",
-			"description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+			"description": "Join us at SF Blockchain Week, where blockchain enthusiasts and experts gather to explore the potential of distributed ledger technology. Discover the latest developments, network with industry professionals, and gain insights from keynote speakers and panel discussions. Whether you're a blockchain enthusiast, developer, or investor, this event offers valuable opportunities to learn, collaborate, and shape the future of blockchain. Register now and be part of the blockchain revolution!",
 			"image": "https://images.unsplash.com/photo-1516245834210-c4c142787335?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
 			"emails_registered": [
 				"",
@@ -80,7 +80,7 @@
 			"id": "innovation-summit-san-francisco",
 			"title": "Innovation Summit San Francisco",
 			"city": "san-francisco",
-			"description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+			"description": "Experience the future at the Innovation Summit San Francisco. Join us as industry leaders, entrepreneurs, and visionaries come together to discuss the latest trends and technologies shaping our world. From artificial intelligence to renewable energy, explore groundbreaking innovations that are driving change and creating new opportunities. Don't miss this chance to be inspired, network with like-minded individuals, and become part of the innovation ecosystem.",
 			"image": "https://images.unsplash.com/photo-1521464302861-ce943915d1c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
 			"emails_registered": []
 		},
@@ -88,7 +88,7 @@
 			"id": "fan-expo-san-francisco",
 			"title": "FAN EXPO San Francisco",
 			"city": "san-francisco",
-			"description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+			"description": "Calling all fans of comics, movies, TV shows, and gaming! Get ready for a thrilling experience at FAN EXPO San Francisco. Join us for a weekend of celebrity guests, exclusive merchandise, cosplay contests, interactive exhibits, and more. Whether you're a dedicated fan or simply love pop culture, this event offers endless entertainment and unforgettable moments. Grab your tickets and get ready to geek out!",
 			"image": "https://images.unsplash.com/photo-1608889825103-eb5ed706fc64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
 			"emails_registered": []
 		},
@@ -96,7 +96,7 @@
 			"id": "san-francisco-opera---san-francisco-tickets",
 			"title": "San Francisco Opera - San Francisco Tickets",
 			"city": "san-francisco",
-			"description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+			"description": "Experience the beauty and grandeur of the San Francisco Opera. Join us for captivating performances that showcase the world's finest operatic talent. From classic masterpieces to contemporary works, immerse yourself in the enchanting world of opera. Whether you're a seasoned opera lover or a first-time attendee, this is an opportunity to witness extraordinary performances in one of the world's premier opera houses. Secure your tickets now and let the magic unfold!",
 			"image": "https://images.unsplash.com/photo-1580809361436-42a7ec204889?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
 			"emails_registered": []
 		},
@@ -104,7 +104,7 @@
 			"id": "concert-christian-löffler-+-detect-ensemble",
 			"title": "Concert Christian Löffler + Detect Ensemble",
 			"city": "barcelona",
-			"description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+			"description": "Immerse yourself in an unforgettable musical experience at the Concert Christian Löffler + Detect Ensemble. Prepare to be captivated by the mesmerizing melodies and innovative sounds of Christian Löffler and the talented Detect Ensemble. This concert brings together cutting-edge electronic music and live instrumentation, creating a unique and immersive sonic journey. Don't miss this opportunity to witness the intersection of technology and artistry. Get your tickets now and be part of this extraordinary performance.",
 			"image": "https://images.unsplash.com/photo-1478147427282-58a87a120781?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
 			"emails_registered": ["alicia@gmail.com", "monica@gmail.com"]
 		},
@@ -112,7 +112,7 @@
 			"id": "the-halloween-house-party",
 			"title": "The Halloween House Party",
 			"city": "barcelona",
-			"description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+			"description": "Get ready for a spooktacular night of frights and delights at The Halloween House Party. Join us for a thrilling and immersive Halloween experience like no other. Dance the night away to bone-chilling beats, explore haunted rooms, and encounter supernatural surprises around every corner. With amazing costumes, live performances, and a devilishly good atmosphere, this is the ultimate Halloween party in Barcelona. Grab your friends and let's make this a night to remember!",
 			"image": "https://images.unsplash.com/photo-1587407627257-27b7127c868c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
 			"emails_registered": [
 				"alicia@gmail.com",
@@ -125,7 +125,7 @@
 			"id": "international-conference-on-industrial-design",
 			"title": "International Conference on Industrial Design",
 			"city": "barcelona",
-			"description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+			"description": "Welcome to the International Conference on Industrial Design in Barcelona. Join us as we explore the latest advancements, trends, and innovations in the field of industrial design. From product design to user experience, this conference brings together industry experts, researchers, and design enthusiasts to share knowledge and inspire creativity. Discover groundbreaking ideas, participate in interactive workshops, and network with like-minded individuals. Don't miss this opportunity to be part of the future of design.",
 			"image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
 			"emails_registered": ["alicia@gmail.com", "monica@gmail.com"]
 		},
@@ -133,15 +133,15 @@
 			"id": "world-congress-2022---barcelona",
 			"title": "World Congress 2022 - Barcelona",
 			"city": "barcelona",
-			"description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-			"image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+			"description": "Join us at the World Congress 2022 in Barcelona, where leaders from various fields gather to discuss and shape the future. This prestigious event brings together visionaries, innovators, and change-makers who are driving progress across industries. Through engaging keynote speeches, panel discussions, and workshops, you'll gain valuable insights and forge connections with global thought leaders. Be part of this transformative experience and contribute to building a better tomorrow.",
+			"image": "https://images.unsplash.com/photo-1576672675553-25c936e37a9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
 			"emails_registered": ["alicia@gmail.com", "monica@gmail.com"]
 		},
 		{
 			"id": "riskminds-international",
 			"title": "RiskMinds International",
 			"city": "barcelona",
-			"description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+			"description": "Get ready for an unparalleled gathering of risk management experts from around the world at RiskMinds International in Barcelona. This premier event offers a unique platform to explore the latest strategies, trends, and best practices in the field of risk management. Join industry leaders, practitioners, and thought influencers as they share their insights and experiences, providing you with valuable knowledge and networking opportunities. Don't miss this exceptional conference where cutting-edge ideas and innovative solutions converge.",
 			"image": "https://images.unsplash.com/photo-1591115765373-5207764f72e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
 			"emails_registered": ["alicia@gmail.com", "monica@gmail.com"]
 		}
