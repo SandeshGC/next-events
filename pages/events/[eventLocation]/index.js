@@ -1,16 +1,16 @@
 import { toTitleCase } from "@/helpers"
 import { CityEventCard } from "@/src/components"
 import Head from "next/head"
-import Image from "next/image"
 import Link from "next/link"
 import React from "react"
 
 export default function EventLocationPage({ data, city }) {
+	const cityName = toTitleCase(city)
 	return (
 		<>
+			{/* ISSUE: this toTitleCase fn initially shows a <!-- --> on title while refreshing this page */}
 			<Head>
-				{/* ISSUE: this toTitleCase fn initially shows a <!-- --> on title while refreshing this page */}
-				<title>Events in {toTitleCase(city)}</title>
+				<title>{`Events in ${cityName}`}</title>
 			</Head>
 
 			<main className="city__events--container">
