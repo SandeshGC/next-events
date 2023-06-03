@@ -6,7 +6,7 @@ const AboutUsPage = () => {
 			<Head>
 				<title>About Us</title>
 			</Head>
-			<div>
+			<div className="container">
 				<h1>About Next Events</h1>
 				<p>
 					Next Events is a very useful website where you can discover exciting

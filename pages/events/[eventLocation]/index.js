@@ -3,6 +3,7 @@ import { CityEventCard } from "@/src/components"
 import Head from "next/head"
 import Link from "next/link"
 import React from "react"
+import styles from "./CityEvents.module.sass"
 
 export default function EventLocationPage({ data, city }) {
 	const cityName = toTitleCase(city)
@@ -13,9 +14,9 @@ export default function EventLocationPage({ data, city }) {
 				<title>{`Events in ${cityName}`}</title>
 			</Head>
 
-			<main className="city__events--container">
+			<main className={`${styles.cityEvents__container} container`}>
 				<h1>Events in {toTitleCase(city)}</h1>
-				<div className="city__events--list">
+				<div className={styles.cityEvents__list}>
 					{data.map((evt) => (
 						<Link key={evt.id} href={`/events/${evt.city}/${evt.id}`}>
 							<CityEventCard evt={evt} />
