@@ -13,6 +13,8 @@ const AboutUsPage = () => {
 					events happening near you. Get details about various events or create
 					and post an event yourself!
 				</p>
+
+				<p>Stay up-to-date with Next Events!</p>
 			</div>
 		</>
 	)
