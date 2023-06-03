@@ -11,20 +11,14 @@ const Header = () => (
 			<nav>
 				<ul>
 					<li>
-						<Link href={"/"} passHref legacyBehavior>
-							Home
-						</Link>
+						<Link href={"/"}>Home</Link>
 					</li>
 					<li>
-						<Link href="/events" passHref legacyBehavior>
-							Events
-						</Link>
+						<Link href="/events">Events</Link>
 					</li>
 
 					<li>
-						<Link href="/about-us" passHref legacyBehavior>
-							About
-						</Link>
+						<Link href="/about-us">About</Link>
 					</li>
 				</ul>
 			</nav>
