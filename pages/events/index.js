@@ -1,8 +1,8 @@
 import { CityCard } from "@/src/components"
 import Head from "next/head"
-import Image from "next/image"
 import Link from "next/link"
 import React from "react"
+import styles from "./AllEvents.module.sass"
 
 export default function EventsPage({ data }) {
 	return (
@@ -11,7 +11,7 @@ export default function EventsPage({ data }) {
 				<title>Events</title>
 			</Head>
 
-			<div className="events__container">
+			<div className={`${styles.events__container} container`}>
 				{data.map((evt) => (
 					<Link key={evt.id} href={`/events/${evt.id}`}>
 						<CityCard evt={evt} />

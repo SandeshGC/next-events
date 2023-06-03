@@ -1,15 +1,16 @@
 import Image from "next/image"
 import React from "react"
+import styles from "./CityCard.module.sass"
 
 const CityCard = ({ evt }) => {
 	return (
-		<div className="event__card">
-			<div className="img__container">
+		<div className={styles.event__card}>
+			<div className={styles.img__container}>
 				<Image
 					src={evt.image}
 					alt={evt.title}
-					width="400"
-					height="300"
+					width={350}
+					height={275}
 					unoptimized
 				/>
 			</div>
