@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Head from "next/head"
+import styles from "./Event.module.sass"
 
 export default function EventPage({ event }) {
 	return (
@@ -7,10 +8,22 @@ export default function EventPage({ event }) {
 			<Head>
 				<title>{event.title}</title>
 			</Head>
-			<div>
-				<Image src={event.image} height={300} width={400} alt={event.title} unoptimized/>
-				<h1>{event.title}</h1>
-				<p>{event.description}</p>
+
+			<div className={`${styles.event} container`}>
+				<div className={styles.event__details}>
+					<h1>{event.title}</h1>
+					<p>{event.description}</p>
+				</div>
+
+				<div className={styles.eventCover__container}>
+					<Image
+						src={event.image}
+						height={500}
+						width={650}
+						alt={event.title}
+						unoptimized
+					/>
+				</div>
 			</div>
 		</>
 	)
