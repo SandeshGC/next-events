@@ -14,9 +14,9 @@ export default function EventLocationPage({ data, city }) {
 				<title>{`Events in ${cityName}`}</title>
 			</Head>
 
-			<main className={styles.cityEvents__container}>
+			<main className={`${styles.cityEvents__container} container`}>
 				<h1>Events in {toTitleCase(city)}</h1>
-				<div>
+				<div className={styles.cityEvents__list}>
 					{data.map((evt) => (
 						<Link key={evt.id} href={`/events/${evt.city}/${evt.id}`}>
 							<CityEventCard evt={evt} />

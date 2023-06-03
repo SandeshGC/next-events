@@ -7,7 +7,7 @@ const CityEventCard = ({ evt }) => {
 	return (
 		<div className={styles.card}>
 			<div className={styles.img__container}>
-				<Image width={300} height={300} alt={title} src={image} unoptimized />
+				<Image width={325} height={285} alt={title} src={image} unoptimized />
 			</div>
 			<div className={styles.details__container}>
 				<h2>{title}</h2>
