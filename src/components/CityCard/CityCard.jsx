@@ -13,6 +13,7 @@ const CityCard = ({ evt }) => {
 					height={275}
 					unoptimized
 				/>
+				<div className={styles.img__overlay}></div>
 			</div>
 			<h2>{evt.title}</h2>
 		</div>
