@@ -1,0 +1,43 @@
+.event
+    display: flex
+    gap: 2rem
+
+    .eventCover__container
+        border-radius: 1rem
+        img
+            border-radius: 1rem
+
+.register__wrapper
+    background-color: #f1f1f1
+
+    .register__container
+        .register__input
+            display: flex
+            flex-direction: row
+            margin-bottom: 1rem
+            align-items: stretch
+
+            .register__email
+                padding: 0.75rem 1rem
+                border: 1px solid #a1a1a1
+                transition: all 0.3s ease-in-out
+                font-size: 0.9rem
+                &:focus
+                    outline: none
+                    border: 1px solid #000
+                    transition: all 0.2s ease-in-out
+
+            .register__btn
+                background-color: #000
+                border: none
+                color: #fff
+                padding: 0.5rem 2rem
+                font-size: 0.8rem
+                cursor: pointer
+                text-transform: uppercase
+                letter-spacing: 0.05rem
+                font-weight: 600
+                transition: all 0.3s ease-in-out
+
+                &:hover
+                    background-color: #444444
