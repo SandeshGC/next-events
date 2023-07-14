@@ -1,12 +1,11 @@
 import { toTitleCase } from "@/helpers"
-import { CityEventCard } from "@/src/components"
 import Head from "next/head"
-import Link from "next/link"
 import React from "react"
-import styles from "./CityEvents.module.sass"
+import CityEventsPage from "@/src/containers/CityEvents/CityEventsPage"
 
 export default function EventLocationPage({ data, city }) {
 	const cityName = toTitleCase(city)
+
 	return (
 		<>
 			{/* ISSUE: this toTitleCase fn initially shows a <!-- --> on title while refreshing this page */}
@@ -14,16 +13,7 @@ export default function EventLocationPage({ data, city }) {
 				<title>{`Events in ${cityName}`}</title>
 			</Head>
 
-			<main className={`${styles.cityEvents__container} container`}>
-				<h1>Events in {toTitleCase(city)}</h1>
-				<div className={styles.cityEvents__list}>
-					{data.map((evt) => (
-						<Link key={evt.id} href={`/events/${evt.city}/${evt.id}`}>
-							<CityEventCard evt={evt} />
-						</Link>
-					))}
-				</div>
-			</main>
+			<CityEventsPage data={data} city={city} />
 		</>
 	)
 }

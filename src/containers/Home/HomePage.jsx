@@ -1,4 +1,4 @@
-import { HomeEventCard } from ".."
+import { HomeEventCard } from "../../components"
 import styles from "./Home.module.sass"
 
 const HomePage = ({ data }) => {
